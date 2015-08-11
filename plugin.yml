@@ -1,0 +1,5 @@
+name: BlueHub
+main: fr.adrean.BlueHub.BlueHub
+version: 0.1
+author: Thecrafteur75
+depend: [BlueCore]
