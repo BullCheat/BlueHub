@@ -14,6 +14,7 @@ public class BlueHub extends JavaPlugin implements Listener {
 	public void onEnable() {
 		Bukkit.getPluginManager().registerEvents(new BoosterManager(), this);
 		Bukkit.getPluginManager().registerEvents(this, this);
+		Bukkit.getPluginManager().registerEvents(new ActionBarManager(this), this);
 	}
 	
 	
@@ -24,4 +25,5 @@ public class BlueHub extends JavaPlugin implements Listener {
 		}
 	}
 	
+		
 }
